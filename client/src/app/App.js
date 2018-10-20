@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import { Provider } from 'react-redux';
 import logo from './logo.svg';
 import './App.css';
+import Customers from './../components/Customer/customers';
+import store from './../store';
 
 class App extends Component {
   render () {
@@ -21,6 +24,11 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <body>
+          <Provider store={ store }>
+            <Customers/>
+          </Provider>
+        </body>
       </div>
     );
   }
