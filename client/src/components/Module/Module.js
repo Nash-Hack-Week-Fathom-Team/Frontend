@@ -3,7 +3,8 @@ import { Card, CardBody, Button, CardTitle, CardText, Form, Input  } from 'react
 
 class Module extends Component {
     state = { 
-        text: this.props.text
+        text: this.props.text,
+        link: this.props.link
      }
 
     
@@ -12,7 +13,7 @@ class Module extends Component {
             <Card>
             <CardBody>
                 <CardTitle className="card-title">
-                    <p>{this.state.text}</p>
+                    <a href={this.state.link} >{this.state.text}</a>
                 </CardTitle>
             </CardBody>
             </Card>

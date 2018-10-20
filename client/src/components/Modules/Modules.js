@@ -3,18 +3,18 @@ import Module from '../Module/Module';
 
 class Modules extends Component {
     state = { 
-        modules: [
-            {id: 1, text: "Who am I?"},
-            {id: 2, text: "What matters?"},
-            {id: 3, text: "What's my purpose?"},
-            {id: 4, text: "What's my plan?"}
+        questions: [
+            {id: 1, text: "Who am I?", link: "#who"},
+            {id: 2, text: "What matters?", link: "#matters"},
+            {id: 3, text: "What's my purpose?", link: "#purpose"},
+            {id: 4, text: "What's my plan?", link: "#plan"}
         ]
      }
     render() { 
         return ( 
             <div>
-                {this.state.Modules.map( Module => (
-                    <Module key={Module.id} text={Module.text} selected/>
+                {this.state.questions.map( question => (
+                    <Module key={question.id} text={question.text} link={question.text} selected/>
                 ))}
             </div>
 
