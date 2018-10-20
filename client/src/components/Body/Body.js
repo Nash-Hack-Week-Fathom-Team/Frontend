@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 import Profile from './../Profile/Profile';
+import Modules from '../Modules/Modules';
 
 
 
 class Body extends Component {
     state = {  }
     render() { 
-        return (  
-            <Profile/>
+        return (
+            <frameElement>
+                <Profile/>
+                <Modules/>
+            </frameElement>  
+            
         );
     }
 }
