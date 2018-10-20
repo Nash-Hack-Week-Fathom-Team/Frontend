@@ -1,15 +1,19 @@
 {
-  "name": "react-setup",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.6.0",
     "firebase": "^5.5.5",
     "node-sass-chokidar": "^1.3.4",
     "npm-run-all": "^4.1.3",
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
+    "react-redux": "^5.0.6",
+    "react-scripts": "2.0.5",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
@@ -18,7 +22,9 @@
     "build-js": "react-scripts build",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm-run-all build-css build-js",
-    "deploy": "npm run build && firebase deploy"
+    "deploy": "npm run build && firebase deploy",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,5 +34,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "proxy": "http://localhost:5000"
 }
