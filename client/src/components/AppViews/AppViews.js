@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 import Main from '../Main/main';
-import Test from '../test/test'
+import Focus from '../Focus/Focus';
  
 class AppViews extends Component {
     state = {}
@@ -12,8 +12,8 @@ class AppViews extends Component {
                 <Route exact path="/" render={(props) => {
                     return (<Main /> )
                 }} />
-                <Route exact path="/Test" render={(props) => {
-                    return <Test />
+                <Route exact path="/Focus" render={(props) => {
+                    return <Focus />
                 }} />
             </React.Fragment>
         )

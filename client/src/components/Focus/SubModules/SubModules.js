@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Module from './Module/Module';
+import SubModule from './SubModule/SubModule';
 
-class Modules extends Component {
+class SubModules extends Component {
     state = { 
         questions: [
             {id: 1, text: "Who am I?", link: "#who"},
@@ -12,9 +12,9 @@ class Modules extends Component {
      }
     render() { 
         return ( 
-            <div class="questions">
+            <div>
                 {this.state.questions.map( question => (
-                    <Module key={question.id} text={question.text} link={question.text} selected/>
+                    <SubModule key={question.id} text={question.text} link={question.text} selected/>
                 ))}
             </div>
 
@@ -22,4 +22,4 @@ class Modules extends Component {
     }
 }
  
-export default Modules;
+export default SubModules;

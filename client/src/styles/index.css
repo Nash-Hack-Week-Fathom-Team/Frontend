@@ -1,2 +1,20 @@
 body {
-  background-color: cadetblue; }
+  background-color: white; }
+
+  .card {
+    width: 150px;
+    /* height: 150px; */
+  }
+
+  .card-body {
+    background-color: red;
+  }
+
+  .questions {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+
+
