@@ -3,15 +3,17 @@ import { Provider } from 'react-redux';
 import logo from './logo.svg';
 import './App.css';
 import store from './../../store';
-import Body from './../Body/Body';
+import AppViews from '../AppViews/AppViews';
+import NavBar from '../NavBar/NavBar'
 
 class App extends Component {
   render () {
     return (
-      <div className="App">
-        <body>
-          <Body/>
-        </body>
+      <div className="AppViews">
+        <div>
+            <NavBar />
+            <AppViews />
+        </div>
       </div>
     );
   }
