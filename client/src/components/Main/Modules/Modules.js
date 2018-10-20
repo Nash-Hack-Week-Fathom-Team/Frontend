@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Module from '../Module/Module';
+import Module from './Module/Module';
 
 class Modules extends Component {
     state = { 
