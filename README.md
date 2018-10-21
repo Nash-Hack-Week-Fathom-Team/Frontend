@@ -68,9 +68,11 @@ Basic File Structure
 File Structure - Version 2 (Built out more)
 ![fathom-filestructure2](https://user-images.githubusercontent.com/38431674/47269442-43a10d80-d523-11e8-82e1-c57e844000f8.jpeg)
 
-
+User Flow
 ![fathom-userflow](https://user-images.githubusercontent.com/38431674/47262539-a5745f80-d4b0-11e8-896d-91c7410b8a80.jpeg)
 
+Styling
 ![fathom-homepage](https://user-images.githubusercontent.com/38431674/47262553-e53b4700-d4b0-11e8-8806-fc04b0135c5d.jpeg)
 
+Database Relationships - ERD/Schema
 ![fathom-erd schema](https://user-images.githubusercontent.com/38431674/47269376-71398700-d522-11e8-964a-8abe9163a9ea.jpeg)
