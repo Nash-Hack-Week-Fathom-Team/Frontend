@@ -4,10 +4,18 @@ const bodyParser = require('body-parser')
 const app = express();
 app.use(bodyParser.json())
 
-const customers = [
-    {id: 1, firstName: 'John', lastName: 'Doe'},
-    {id: 2, firstName: 'Brad', lastName: 'Traversy'},
-    {id: 3, firstName: 'Mary', lastName: 'Swanson'},
+const subModules = [
+  {id: 1, title: "Individual"},
+  {id: 2, title: "Relational"},
+  {id: 3, title: "Community"},
+  {id: 4, title: "Career"}
+];
+
+const modules = [
+    {id: 1, title: "Who am I?", subModules: subModules}, 
+    {id: 2, title: "What am I?",subModules: subModules},
+    {id: 3, title: "What's My Purpose?", subModules: subModules},
+    {id: 4, title: "What's My Plan?", subModules: subModules}
   ];
 
 // create a user
@@ -21,9 +29,12 @@ const customers = [
 //})
 
 app.get('/api/customers', (req, res) => {
-  
-  res.json(customers);
+  res.json(modules);
 });
+
+//app.get('/api/customers/:id', (req, res) => {
+//  res.json(modules);
+//});
 
 const port = 5000;
 
