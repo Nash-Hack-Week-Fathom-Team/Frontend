@@ -81,8 +81,9 @@ Database Relationships - ERD/Schema
 ![fathom-erd schema](https://user-images.githubusercontent.com/38431674/47269376-71398700-d522-11e8-964a-8abe9163a9ea.jpeg)
 
 Starter Team / Nash Hack Weekathon: 
+[John Hellrung](https://github.com/Hellrungj)
 John Hellrung
 Adelaide Yoder
 Jessica Rodgers
-Jessica Barrnett
-Elvis 
+Jessica Barnett
+Elvis Hernandez
