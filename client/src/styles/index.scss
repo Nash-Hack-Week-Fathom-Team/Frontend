@@ -1,5 +1,5 @@
 body {
-    background-color: white; }
+    background-color: #333132; }
   
     .card {
       width: 150px;
@@ -37,7 +37,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: red;
+        background-color: #26c8c8;
         width: 200px;
         height: 200px;
         border-radius: 10px;
@@ -46,14 +46,27 @@ body {
         text-align: center;
       }
        .questions .card-title a {
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 2em;
+        font-weight: 300;
       }
 
       .focusWords .card-title a {
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 2em;
+        font-weight: 300;
       }
+
+      .questions .card-title a:hover{
+        text-decoration: none;
+        font-weight: 900;
+    }
+
+    .focusWords .card-title a:hover{
+        color: black, !important;
+        text-decoration: none;
+        font-weight: 900;
+  }
        
       .Profile {
         display: flex;
@@ -70,5 +83,13 @@ body {
        .profile-name {
         color: black;
         font-size: 1.5em;
-        font-weight: bold;
+        font-weight: 900;
       } 
+
+      .nav-link {
+          color: black;
+      }
+
+      .nav-pills .nav-link {
+          background-color: #26c8c8;
+      }
