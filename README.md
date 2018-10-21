@@ -61,3 +61,9 @@ Current version 0.0
 ## License
 
 ## Acknowledgments
+
+![fathom-filestructure](https://user-images.githubusercontent.com/38431674/47262532-41ea3200-d4b0-11e8-95ab-6d2bc1ab46f3.jpeg)
+
+![fathom-userflow](https://user-images.githubusercontent.com/38431674/47262539-a5745f80-d4b0-11e8-896d-91c7410b8a80.jpeg)
+
+![fathom-homepage](https://user-images.githubusercontent.com/38431674/47262553-e53b4700-d4b0-11e8-8806-fc04b0135c5d.jpeg)
