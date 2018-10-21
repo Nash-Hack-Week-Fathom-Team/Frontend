@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom"
 import './styles/index.css';
 import * as serviceWorker from './serviceWorker';
 import App from './components/app/App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ReactDOM.render((<Router><App /></Router>), document.querySelector("#root"))

@@ -1,19 +1,25 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 import Main from '../Main/main';
-import Test from '../test/test'
- 
+import Focus from '../Focus/Focus';
+import Principles from '../Principles/Principles';
+
 class AppViews extends Component {
-    state = {}
+    state = {
+        foucs: []
+    }
 
     render() {
         return (
             <React.Fragment>
                 <Route exact path="/" render={(props) => {
-                    return (<Main /> )
+                    return (<Main />)
                 }} />
-                <Route exact path="/Test" render={(props) => {
-                    return <Test />
+                <Route exact path="/Focus" render={(props) => {
+                    return <Focus />
+                }} />
+                <Route exact path="/Principles" render={(props) => {
+                    return <Principles />
                 }} />
             </React.Fragment>
         )
