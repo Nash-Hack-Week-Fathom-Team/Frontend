@@ -6,9 +6,9 @@ class Profile extends Component {
     };
     render() {
         return (
-            <div>
-                <img src={this.state.image} alt="Scooba Steve"/>
-                <a href="#">Scooba Steve</a>
+            <div class="Profile">
+                <img src={this.state.image} alt="Scooba Steve" class="profile-pic"/>
+                <a class="profile-name" href="#">Scooba Steve</a>
             </div>
         );
     }
