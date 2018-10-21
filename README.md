@@ -82,8 +82,11 @@ Database Relationships - ERD/Schema
 
 Starter Team / Nash Hack Weekathon: 
 [John Hellrung](https://github.com/Hellrungj)
-John Hellrung
-Adelaide Yoder
-Jessica Rodgers
-Jessica Barnett
-Elvis Hernandez
+[Adelaide Yoder](https://github.com/AdelaideYoder)
+[Jessica Rodgers](https://github.com/jessrod11)
+[Jessica Barnett](https://github.com/jessicabarnett8219)
+[Elvis Hernandez](https://github.com/belvis)
+[Nick Lorenson](https://github.com/enlore)
+
+
+
