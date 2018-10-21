@@ -7,8 +7,10 @@ class Main extends Component {
     render() { 
         return ( 
             <div>
+                <div class="content-container">
                 <Profile />
                 <Modules />
+            </div>
             </div>
          );
     }

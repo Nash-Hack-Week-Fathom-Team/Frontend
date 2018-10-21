@@ -5,7 +5,9 @@ class Focus extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
+            <div class="focusMain">
+                <h1>Who am I?</h1>
+                <p>This is where we will put text that explains this section.</p>
                 {/* <About /> */}
                 <SubModules />
             </div>

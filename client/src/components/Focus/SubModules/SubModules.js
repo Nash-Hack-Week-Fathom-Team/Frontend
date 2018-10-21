@@ -3,18 +3,19 @@ import SubModule from './SubModule/SubModule';
 
 class SubModules extends Component {
     state = { 
-        questions: [
-            {id: 1, text: "Who am I?", link: "#who"},
-            {id: 2, text: "What matters?", link: "#matters"},
-            {id: 3, text: "What's my purpose?", link: "#purpose"},
-            {id: 4, text: "What's my plan?", link: "#plan"}
+        focus: [
+            {id: 1, text: "Identity", link: "#identity"},
+            {id: 2, text: "Capital", link: "#capital"},
+            {id: 3, text: "Passion", link: "#passion"},
+            {id: 4, text: "Best Life", link: "#bestlife"},
+            {id: 5, text: "Smart Goals", link: "#smartgoals"}
         ]
      }
     render() { 
         return ( 
-            <div>
-                {this.state.questions.map( question => (
-                    <SubModule key={question.id} text={question.text} link={question.text} selected/>
+            <div class="focusWords">
+                {this.state.focus.map( focus => (
+                    <SubModule key={focus.id} text={focus.text} link={focus.text} selected/>
                 ))}
             </div>
 
