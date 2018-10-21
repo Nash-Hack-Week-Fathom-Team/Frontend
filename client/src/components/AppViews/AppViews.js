@@ -6,7 +6,7 @@ import Principles from '../Principles/Principles';
 
 class AppViews extends Component {
     state = {
-        foucs: []
+        focus: []
     }
 
     render() {

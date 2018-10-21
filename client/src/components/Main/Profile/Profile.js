@@ -7,8 +7,8 @@ class Profile extends Component {
     render() {
         return (
             <div class="Profile">
-                <img src={this.state.image} alt="Scooba Steve" class="profile-pic"/>
-                <a class="profile-name" href="#">Scooba Steve</a>
+                <img src={this.state.image} alt="Steve" class="profile-pic"/>
+                <a class="profile-name" href="#">Steve</a>
             </div>
         );
     }
