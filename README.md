@@ -87,6 +87,7 @@ Starter Team / Nash Hack Weekathon:
 * [Jessica Barnett](https://github.com/jessicabarnett8219)
 * [Elvis Hernandez](https://github.com/belvis)
 * [Nick Lorenson](https://github.com/enlore)
-
+* Jean Castrillo
+* Joseph Austin
 
 
