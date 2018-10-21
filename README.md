@@ -81,12 +81,12 @@ Database Relationships - ERD/Schema
 ![fathom-erd schema](https://user-images.githubusercontent.com/38431674/47269376-71398700-d522-11e8-964a-8abe9163a9ea.jpeg)
 
 Starter Team / Nash Hack Weekathon: 
-[John Hellrung](https://github.com/Hellrungj)
-[Adelaide Yoder](https://github.com/AdelaideYoder)
-[Jessica Rodgers](https://github.com/jessrod11)
-[Jessica Barnett](https://github.com/jessicabarnett8219)
-[Elvis Hernandez](https://github.com/belvis)
-[Nick Lorenson](https://github.com/enlore)
+* [John Hellrung](https://github.com/Hellrungj)
+* [Adelaide Yoder](https://github.com/AdelaideYoder)
+* [Jessica Rodgers](https://github.com/jessrod11)
+* [Jessica Barnett](https://github.com/jessicabarnett8219)
+* [Elvis Hernandez](https://github.com/belvis)
+* [Nick Lorenson](https://github.com/enlore)
 
 
 
