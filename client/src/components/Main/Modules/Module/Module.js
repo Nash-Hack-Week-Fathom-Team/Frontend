@@ -10,8 +10,8 @@ class Module extends Component {
     
     render() { 
         return ( 
-            <Card>
-            <CardBody>
+            <Card class="card">
+            <CardBody class="card-body">
                 <CardTitle className="card-title">
                     <a href={this.state.link} >{this.state.text}</a>
                 </CardTitle>

@@ -1,20 +1,52 @@
 body {
-  background-color: white; }
+  background-color: black; 
+}
 
-  .card {
-    width: 150px;
-    /* height: 150px; */
-  }
-
-  .card-body {
-    background-color: red;
-  }
-
+.content-container {
+  padding-top: 100px;
+  display: flex;
+  max-width: 980px;
+  flex-direction: column;
+  align-items: center;
+}
   .questions {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
 
 
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 2%;
+    border-radius: 10px;
 
+  }
 
+  .card-title {
+    text-align: center;
+  }
+
+  .card-title a {
+    color: white;
+  }
+  
+  .Profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    padding-bottom: 10px;
+  }
+
+  .profile-pic {
+    padding-bottom: 2%;
+    border-radius: 10px;
+  }
