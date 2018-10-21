@@ -1,3 +1,69 @@
 body {
-    background-color: cadetblue;
-}
+    background-color: white; }
+   
+    .card {
+     width: 150px;
+     /* height: 150px; */
+    }
+   
+    .card-body {
+     background-color: lightblue;
+    }
+   
+    .questions {
+     display: flex;
+     justify-content: space-around;
+     align-self: stretch;
+     flex-wrap: wrap;
+    }
+     .focusMain {
+     padding: 100px;
+    }
+     .focusWords {
+     display: flex;
+     justify-content: space-around;
+    }
+     .content-container {
+     padding-top: 100px;
+     display: flex;
+     max-width: 980px;
+     flex-direction: column;
+     align-items: center;
+     margin-left: auto;
+     margin-right: auto;
+    }
+     .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: red;
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+     }
+     .card-title {
+      text-align: center;
+     }
+      .questions .card-title a {
+      color: white;
+      font-size: 2em;
+     }
+      
+     .Profile {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 200px;
+      padding-bottom: 15px;
+     }
+      .profile-pic {
+      padding-bottom: 2%;
+      border-radius: 10px;
+     }
+      .profile-name {
+      color: black;
+      font-size: 1.5em;
+      font-weight: bold;
+     } 
