@@ -6,7 +6,7 @@ class Main extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
+            <div class="content-container">
                 <Profile />
                 <Modules />
             </div>

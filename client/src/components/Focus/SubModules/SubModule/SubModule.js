@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Card, CardBody, Button, CardTitle, CardText, Form, Input  } from 'reactstrap';
 
-class Module extends Component {
+class SubModule extends Component {
     state = { 
         text: this.props.text,
         link: this.props.link
@@ -10,8 +10,8 @@ class Module extends Component {
     
     render() { 
         return ( 
-            <Card class="card">
-            <CardBody class="card-body">
+            <Card>
+            <CardBody>
                 <CardTitle className="card-title">
                     <a href={this.state.link} >{this.state.text}</a>
                 </CardTitle>
@@ -21,4 +21,4 @@ class Module extends Component {
     }
 }
  
-export default Module;
+export default SubModule;
