@@ -15,7 +15,7 @@ Run both comands below to install the server and client packages.
 npm install
 ```
 ```node
-npm run install_client
+npm run client-install
 ``` 
 3. Running the project (3 Choices):
 ### Server: 
