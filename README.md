@@ -62,7 +62,12 @@ Current version 0.0
 
 ## Acknowledgments
 
+Basic File Structure
 ![fathom-filestructure](https://user-images.githubusercontent.com/38431674/47262532-41ea3200-d4b0-11e8-95ab-6d2bc1ab46f3.jpeg)
+
+File Structure - Version 2 (Built out more)
+![fathom-filestructure2](https://user-images.githubusercontent.com/38431674/47269442-43a10d80-d523-11e8-82e1-c57e844000f8.jpeg)
+
 
 ![fathom-userflow](https://user-images.githubusercontent.com/38431674/47262539-a5745f80-d4b0-11e8-896d-91c7410b8a80.jpeg)
 
