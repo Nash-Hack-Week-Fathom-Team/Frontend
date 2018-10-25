@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "react-router-dom"
+import { connect } from "react-redux"
 
 class NavBar extends Component {
     render() {
@@ -8,6 +9,9 @@ class NavBar extends Component {
                 <ul className="nav nav-pills">
                     <li className="nav-item">
                         <Link className="nav-link" to="/">Home</Link>
+                        {/*this.props.modules.map( modules => (
+                            <Link className="nav-link" key={modules.id} to={"module/".concat(modules.id)} selected>{modules.text}</Link>
+                        ))*/}
                     </li>
                 </ul>
             </nav>
@@ -15,4 +19,10 @@ class NavBar extends Component {
     }
 }
 
-export default NavBar
+const mapStateToProps = (state) => {
+    return {
+        modules: state.modules
+    }
+}
+
+export default connect(mapStateToProps)(NavBar)

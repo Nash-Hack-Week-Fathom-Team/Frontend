@@ -1,26 +1,23 @@
 import React, { Component } from 'react';
-import SubModule from './SubModule/SubModule';
+import SubModule from './subModule/subModule';
+
 
 class SubModules extends Component {
-    state = { 
-        focus: [
-            {id: 1, text: "Identity", link: "#identity"},
-            {id: 2, text: "Capital", link: "#capital"},
-            {id: 3, text: "Passion", link: "#passion"},
-            {id: 4, text: "Best Life", link: "#bestlife"},
-            {id: 5, text: "Smart Goals", link: "#smartgoals"}
-        ]
-     }
+    state = {
+        module: this.props.module,
+        subModules: this.props.subModules
+    }
+
     render() { 
         return ( 
             <div class="focusWords">
-                {this.state.focus.map( focus => (
-                    <SubModule key={focus.id} text={focus.text} link={focus.text} selected/>
+                {this.state.subModules.map( subModules => (
+                    <SubModule key={subModules.id} text={subModules.text} link={"/module/".concat(this.state.module.id).concat(subModules.link)} selected/>
                 ))}
             </div>
 
          );
     }
 }
- 
+
 export default SubModules;

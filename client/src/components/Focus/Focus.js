@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
-import SubModules from './SubModules/SubModules';
+import SubModules from './subModules/subModules';
+import { connect } from 'react-redux'
 
 class Focus extends Component {
-    state = {  }
     render() { 
         return ( 
             <div class="focusMain">
-                <h1>Who am I?</h1>
+                <h1>{this.props.module.text}</h1>
                 <p>This is where we will put text that explains this section.</p>
                 {/* <About /> */}
-                <SubModules />
+                <SubModules module={this.props.module} subModules={this.props.subModules}/>
             </div>
          );
     }
 }
+
+const mapStateToProps = (state, ownProps) => {
+    let id = ownProps.match.params.module_id;
+    return {
+        subModules: state.subModules,
+        module: state.modules.find(module => module.id === id)
+    }
+}
  
-export default Focus;
+export default connect(mapStateToProps)(Focus);

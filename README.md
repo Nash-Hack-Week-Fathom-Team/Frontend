@@ -69,7 +69,10 @@ File Structure - Version 2 (Built out more)
 ![fathom-filestructure2](https://user-images.githubusercontent.com/38431674/47269442-43a10d80-d523-11e8-82e1-c57e844000f8.jpeg)
 
 User Flow
-![fathom-userflow](https://user-images.githubusercontent.com/38431674/47262539-a5745f80-d4b0-11e8-896d-91c7410b8a80.jpeg)
+![fathomuserflow1](https://user-images.githubusercontent.com/38431674/47271599-82918c00-d540-11e8-9bb0-779b51438603.jpeg)
+![fathomuserflow2](https://user-images.githubusercontent.com/38431674/47271604-8de4b780-d540-11e8-90dc-f534ddd1c297.jpeg)
+![fathomuserflow3](https://user-images.githubusercontent.com/38431674/47271608-9dfc9700-d540-11e8-96a6-b1fb6f47e533.jpeg)
+![fathomuserflow4](https://user-images.githubusercontent.com/38431674/47271610-a94fc280-d540-11e8-926a-dabe3ebc5978.jpeg)
 
 Styling
 ![fathom-homepage](https://user-images.githubusercontent.com/38431674/47262553-e53b4700-d4b0-11e8-8806-fc04b0135c5d.jpeg)
@@ -78,3 +81,13 @@ Database Relationships - ERD/Schema
 ![fathom-erd schema](https://user-images.githubusercontent.com/38431674/47269376-71398700-d522-11e8-964a-8abe9163a9ea.jpeg)
 
 Starter Team / Nash Hack Weekathon: 
+* [John Hellrung](https://github.com/Hellrungj)
+* [Adelaide Yoder](https://github.com/AdelaideYoder)
+* [Jessica Rodgers](https://github.com/jessrod11)
+* [Jessica Barnett](https://github.com/jessicabarnett8219)
+* [Elvis Hernandez](https://github.com/belvis)
+* [Nick Lorenson](https://github.com/enlore)
+* Jean Castrillo
+* Joseph Austin
+
+

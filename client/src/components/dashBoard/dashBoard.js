@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Profile from './Profile/Profile';
-import Modules from './Modules/Modules';
+import Profile from '../profile/profile';
+import Modules from './modules/modules';
 
-class Main extends Component {
+class DashBoard extends Component {
     state = {  }
     render() { 
         return ( 
@@ -16,4 +16,4 @@ class Main extends Component {
     }
 }
  
-export default Main;
+export default DashBoard;

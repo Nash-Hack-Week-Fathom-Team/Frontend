@@ -1,20 +1,31 @@
 import React, { Component } from 'react';
-import { Provider } from 'react-redux';
-import logo from './logo.svg';
-import './App.css';
-import store from './../../store';
-import AppViews from '../AppViews/AppViews';
-import NavBar from '../NavBar/NavBar'
+import { BrowserRouter, Route } from "react-router-dom"
+
+import NavBar from '../navBar/navBar'
+import DashBoard from '../dashBoard/dashBoard';
+import Focus from '../focus/focus';
+import Principles from '../principles/principles';
+
+import './app.css';
 
 class App extends Component {
+
   render () {
     return (
-      <div className="AppViews">
-        <div>
+        <BrowserRouter>
+          <div className="App">
             <NavBar />
-            <AppViews />
-        </div>
-      </div>
+            <Route exact path="/" render={(props) => {
+                    return (<DashBoard />)
+            }} />
+            <Route exact path="/module/:module_id" component={Focus}  render={(props) => {
+                return <Focus />
+            }} />
+            <Route exact path="/module/:module_id/:subModule_id" component={Principles} render={(props) => {
+                return <Principles />
+            }} />
+          </div>
+        </BrowserRouter>
     );
   }
 }

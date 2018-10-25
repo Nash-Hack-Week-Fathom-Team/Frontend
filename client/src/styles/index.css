@@ -1,2 +1,86 @@
 body {
-  background-color: cadetblue; }
+  background-color: #333132; }
+
+.card {
+  width: 150px;
+  /* height: 150px; */ }
+
+.card-body {
+  background-color: lightblue; }
+
+.questions {
+  display: flex;
+  justify-content: space-around;
+  align-self: stretch;
+  flex-wrap: wrap; }
+
+.focusMain {
+  padding: 100px; }
+
+.focusWords {
+  display: flex;
+  justify-content: space-around; }
+
+.content-container {
+  padding-top: 100px;
+  display: flex;
+  max-width: 980px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #26c8c8;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px; }
+
+.card-title {
+  text-align: center; }
+
+.questions .card-title a {
+  color: black;
+  font-size: 2em;
+  font-weight: 300; }
+
+.focusWords .card-title a {
+  color: black;
+  font-size: 2em;
+  font-weight: 300; }
+
+.questions .card-title a:hover {
+  text-decoration: none;
+  font-weight: 900; }
+
+.focusWords .card-title a:hover {
+  color: black, !important;
+  text-decoration: none;
+  font-weight: 900; }
+
+.Profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  padding-bottom: 15px; }
+
+.profile-pic {
+  padding-bottom: 2%;
+  border-radius: 10px; }
+
+.profile-name {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 900; }
+
+.nav-link {
+  color: black; }
+
+.nav-pills .nav-link {
+  background-color: #26c8c8; }
